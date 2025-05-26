@@ -64,14 +64,13 @@ a {
     display: flex;
     flex-direction: column;
     background: #E6F0FF;
-    height: 100vh;
+    height: calc(100vh - 90px);
     position: relative;
 }
 
 .navbar{
     display: flex;
     align-items: center;
-    /* padding-top: 38px; */
     padding: 12px 0;
 }
 
